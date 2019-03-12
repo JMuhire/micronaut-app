@@ -1,2 +1,0 @@
-- [ ] Update the repo in the VM (nginx examples)
-- [ ] Add the nginx images to the VM
