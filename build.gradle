@@ -40,6 +40,9 @@ dependencies {
 
     compileOnly "io.micronaut:micronaut-inject-java"
     runtime "ch.qos.logback:logback-classic:1.2.3"
+    compile "io.prometheus:simpleclient:0.0.26"
+    compile "io.prometheus:simpleclient_common:0.0.26"
+    compile "io.prometheus:simpleclient_hotspot:0.0.26"
     testCompile "junit:junit:4.12"
     testCompile "io.micronaut:micronaut-inject-java"
     testCompile "org.hamcrest:hamcrest-all:1.3"
