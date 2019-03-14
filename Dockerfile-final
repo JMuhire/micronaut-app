@@ -1,0 +1,4 @@
+FROM frolvlad/alpine-glibc
+EXPOSE 8080
+COPY micronaut-app .
+ENTRYPOINT ["./micronaut-app"]
