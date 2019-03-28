@@ -32,8 +32,6 @@ public class ProbeControllerTest {
         }
     }
 
-    // TODO: move this to spock and add test for the full life cycle, also checking the values returned
-
     @Test
     public void testLiveness() throws Exception {
         HttpRequest request = HttpRequest.GET("/probe/liveness");

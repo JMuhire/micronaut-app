@@ -11,7 +11,6 @@ public class HostController {
     @Get()
     public String host() throws Exception {
 
-        // TODO: add logging in the endopoints?
         return InetAddress.getLocalHost().getHostName();
     }
 
